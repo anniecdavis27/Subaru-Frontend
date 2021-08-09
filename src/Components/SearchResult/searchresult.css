@@ -1,0 +1,35 @@
+.SearchResult {
+    width: 20%;
+    margin: 2rem 2.5%;
+    color: #fff;
+}
+
+.SearchResult img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.SearchResult h2 {
+    margin-block-end: 0;
+}
+
+.SearchResult h3 {
+    margin-block-start: .25em;
+    margin-block-end: .25em;
+}
+
+.SearchResult p {
+    margin-block-start: .25em;
+}
+
+.learn-more-link {
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.learn-more-link:hover {
+    color: rgb(0, 51, 44);
+}

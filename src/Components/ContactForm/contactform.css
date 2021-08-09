@@ -1,0 +1,40 @@
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#email {
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+form button {
+    width: 10rem;
+    height: 60px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    color: rgb(0, 51, 44);
+    background-color: rgb(152, 226, 216);
+    transition: 0.3s;
+}
+
+form button:hover {
+    width: 10rem;
+    height: 60px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    color:rgb(152, 226, 216);
+    background-color: rgb(0, 51, 44);
+    transition: 0.3s;
+}
+

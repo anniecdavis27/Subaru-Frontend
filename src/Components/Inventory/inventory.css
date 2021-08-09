@@ -1,0 +1,23 @@
+.Inventory {
+    margin: 140px 30px 30px 30px;
+}
+
+.Inventory .model-flex .SearchResult h2 {
+    color: rgb(0, 51, 44);
+}
+
+.Inventory .model-flex .SearchResult h3 {
+    color: rgb(0, 51, 44);
+}
+
+.Inventory .model-flex .SearchResult p {
+    color: rgb(0, 51, 44);
+}
+
+.Inventory .model-flex .SearchResult a {
+    color: rgb(0, 51, 44);
+}
+
+.Inventory .model-flex .SearchResult a:hover {
+    color: rgb(0, 153, 133);
+}

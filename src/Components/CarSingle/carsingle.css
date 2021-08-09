@@ -1,0 +1,27 @@
+.CarSingle .container {
+    margin: 140px 30px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    min-height: 75vh;
+}
+
+.single-content {
+    width: 50%;
+}
+
+.single-image {
+    width: 50%;
+}
+
+.single-image img {
+    width: 75%;
+}
+
+.contact-us-link {
+    color: rgb(0, 51, 44);
+    font-size: 1.5rem;
+}
+
+.contact-us-link:hover {
+    color: rgb(0, 153, 133);
+}

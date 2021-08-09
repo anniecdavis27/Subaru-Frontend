@@ -1,0 +1,20 @@
+.Hero .container {
+    margin: 140px 30px 30px 30px;
+    background-image: url(https://live.staticflickr.com/65535/51361276256_861b4f1b1e_h.jpg);
+    height: 75vh;
+    background-position-y: 75%;
+
+}
+
+.slogan {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan h1 {
+color: #fff;
+font-size: rem;
+text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
