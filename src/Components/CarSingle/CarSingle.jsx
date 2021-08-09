@@ -2,6 +2,7 @@ import "./carsingle.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import apiUrl from "../../../apiConfig";
 
 function CarSingle(props) {
   const [car, setCar] = useState(null);
@@ -11,7 +12,7 @@ function CarSingle(props) {
     const makeAPICall = async () => {
       try {
         const response = await axios(
-          `http://localhost:4000/cars/${props.match.params.id}`
+          `${apiUrl}/cars/${props.match.params.id}`
         );
         setCar(response.data);
       } catch (err) {

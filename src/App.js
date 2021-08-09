@@ -7,6 +7,7 @@ import About from './Components/About/About'
 import CarSingle from './Components/CarSingle/CarSingle';
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
+import apiUrl from "../apiConfig";
 
 function App(props) {
 
@@ -15,7 +16,7 @@ function App(props) {
   useEffect(() => {
     const makeAPICall = async () => {
       try {
-        const response = await axios('http://localhost:4000/cars');
+        const response = await axios(`${apiUrl}/cars`);
         setCars(response.data);
       } catch (err) {
         console.error(err);

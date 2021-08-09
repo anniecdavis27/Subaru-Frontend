@@ -7,6 +7,8 @@
 .SearchResult img {
     max-width: 200px;
     max-height: 200px;
+    display: block;
+    margin: auto;
 }
 
 .SearchResult h2 {
@@ -33,3 +35,16 @@
 .learn-more-link:hover {
     color: rgb(0, 51, 44);
 }
+
+@media only screen and (max-width: 1024px) {
+    .SearchResult {
+        width: 50%;
+        margin: 1rem 0;
+        color: #fff;
+    }
+
+    .SearchResult img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+  }
